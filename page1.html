@@ -1,100 +1,80 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-  ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #b0f1d0;
+*{
+    padding: 0px;
+    border: 0;
+}
+/*header导航条开始*/
+header{
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    overflow: hidden/*为了清除浮动*/;
+}
+header ul{
+    margin:0 auto;
+    list-style-type: none;
+    display:inline-block;
+}
+header ul li{
+    float: left;
+    width: 150px;
+    line-height: 88px;
+    text-align: center;
+}
+header li a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+}
+header li a:hover{
+    color: #aaa;
+}
+/*header导航条结束*/
+/*自我介绍开始*/
+div.jieshao{
+    width: 100%;
+    text-align: center;
+}
+div.jieshao p{
+    margin-top: 20px;
+}
+/*自我介绍结束*/
+/*表格开始*/
+div.biaoge{
+    width: 100%;
+}
+div.biaoge table{
+    margin: 0 auto;
+    border: 2px solid #000000;
+}
+div.biaoge table tr th{
+    border: 1px solid #000000;
+}
+div.biaoge table tr th:nth-child(1){
+    width: 300px;
+    height: 30px;
+}
+div.biaoge table tr th:nth-child(2){
+    width: 70px;
+    height: 30px;
+}
+div.biaoge table tr th:nth-child(3){
+    width: 150px;
+    height: 30px;
+}
+div.biaoge table tr td{
+    border: 1px solid #000000;
 }
 
-li {
-  float: left;
+/*表格结束*/
+/*页脚开始*/
+div.yejiao{
+    width: 100%;
 }
-
-li a {
-  display: block;
-  color: rgb(0, 0, 0);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+div.yejiao p{
+    margin:0 auto;
+    margin-top: 40px;
+    text-align: center;
 }
-
-li a:hover {
-  background-color: #111;
+div.yejiao p a{
 }
-p.groove {border-style: groove;}
-  #grad1 {
-  height: 200px;
-  background-color: #b0f1d0;
-}
-
-    .center {
-  text-align: center;
-  background-color: rgb(241, 241, 241);
-}
-
-h1 {
-  color: rgb(61, 61, 61);
-  text-align: center;
-  
-
-
-</style>
-</head>
-<body>
-  <ul>
-  <li><a href="第二页的github网页链接">Page2</a></li>
-  <li><a href="第三页的github网页链接">Page3</a></li>
-
-</ul>
-        
-    <div class="center">
-        <div id="grad1">
-  <h1 style="font-size:300%;">Self-introduction</h1><!-- title -->
-        
-
-  <p style="font-size:175%"> My name is Gloria, and my Chinese name is Gu Senxin.I am an optimistic and cheerful person.</p><!-- Very brief self-introduction -->
-</div>
-  
-    <h2 style="font-size:225%;">My Photo</h2><!-- Title of the photo -->
-    <style>img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }    
-    
-    </style>
-    <img src="你的照片">
-  <!-- Code in picture setting -->
-  
-    
-  <table id="Achievement">
-    <tr>
-      <th>Achievement</th>
-      <th>Time</th>
-      <th>Place</th>
-    </tr>
-    <tr>
-      <td>Pass the computer level 1 exam </td>
-      <td>2021.11</td>
-      <td>nbcc</td>
-    </tr>
-    <tr>
-      <td>Pass the English Level 4 exam</td>
-      <td> 2022.6</td>
-      <td>nbcc</td>
-    </tr>
-    <tr>
-      <td>Pass a driver's license test</td>
-      <td> 2022.8</td>
-      <td>Driving school</td>
-    </tr>
-  </table>
-        </div>
-           
-
-</body>
-</html>
+/*页脚结束*/
