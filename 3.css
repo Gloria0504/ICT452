@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    border: 0;
+}
+/*header导航条开始*/
+header{
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    overflow: hidden/*为了清除浮动*/;
+}
+header ul{
+    margin:0 auto;
+    list-style-type: none;
+    display:inline-block;
+}
+header ul li{
+    float: left;
+    width: 150px;
+    line-height: 88px;
+    text-align: center;
+}
+header li a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+}
+header li a:hover{
+    color: #aaa;
+}
+/*header导航条结束*/
+/*自我介绍开始*/
+div.neirong{
+    width:800px;
+    margin: 0  auto;
+}
+div.liucheng {
+    width: 700px;
+    margin: 0 auto;
+}
+div.liucheng h2{
+    text-align: center;
+}
+div.wenzi{
+    width: 700px;
+    margin:0 auto;
+    border: 2px solid #000000;
+}
+div.wenzi p{
+    width: 600px;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*自我介绍结束*/
+/*页脚开始*/
+div.yejiao{
+    width: 100%;
+}
+div.yejiao p{
+    margin:0 auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+/*页脚结束*/

@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    border: 0;
+}
+/*header导航条开始*/
+header{
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    overflow: hidden/*为了清除浮动*/;
+}
+header ul{
+    margin:0 auto;
+    list-style-type: none;
+    display:inline-block;
+}
+header ul li{
+    float: left;
+    width: 150px;
+    line-height: 88px;
+    text-align: center;
+}
+header li a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+}
+header li a:hover{
+    color: #aaa;
+}
+/*header导航条结束*/
+/*自我介绍开始*/
+div.jieshao{
+    width: 100%;
+}
+div.jieshao h2{
+    text-align: center;
+}
+div.jieshao p{
+    margin-top: 25px;
+    width: 600px;
+    margin: 0 auto;
+}
+div.jieshao p a{
+    line-height: 30px;
+}
+div.zp p{
+    text-align: center;
+}
+/*自我介绍结束*/
+/*表格开始*/
+div.biaoge{
+    width: 100%;
+}
+div.biaoge table{
+    margin: 0 auto;
+    border: 2px solid #000000;
+}
+div.biaoge table tr th{
+    border: 1px solid #000000;
+}
+div.biaoge table tr th:nth-child(1){
+    width: 300px;
+    height: 30px;
+}
+div.biaoge table tr th:nth-child(2){
+    width: 70px;
+    height: 30px;
+}
+div.biaoge table tr th:nth-child(3){
+    width: 150px;
+    height: 30px;
+}
+div.biaoge table tr td{
+    border: 1px solid #000000;
+}
+
+/*表格结束*/
+/*页脚开始*/
+div.yejiao{
+    width: 100%;
+}
+div.yejiao p{
+    margin:0 auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+/*页脚结束*/
